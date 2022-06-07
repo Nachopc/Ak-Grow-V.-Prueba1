@@ -1,0 +1,150 @@
+/* Tipografia */
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,100 & display=swap');
+
+/* General */
+*{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Comentario */
+header{ 
+    margin:0px;
+    height:200px;
+    background-image: url(../fondo_titulo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+body { 
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #008000;
+}
+h2{
+    
+    color: #a52a2a;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+}
+article h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #0000ff;
+    
+
+}
+
+ul h3{
+    font-size: 16px;
+    text-align: center;
+    color: #f30000;
+    padding: 20px;
+    list-style:none
+}
+
+h4{
+    color: #008000;
+    text-align: center;
+}
+
+h5{
+    color: #f30000;
+    text-align:end;
+    align-items: flex-end;   
+    flex-wrap: wrap end
+; 
+}
+
+.sinSubrayar{
+    text-decoration: none;
+    background-color: #008000;
+    border-radius: 20%;
+    cursor: pointer;  
+}
+
+main{
+    width:auto;
+    margin: 0px;
+    height: 800px;
+    background-image: url(../fondofullak.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.caja{/*100px*/
+    margin: 2px;
+    padding: 20px;
+    
+}
+
+.caja2{
+    margin: 2px;
+    padding: 10px;
+    align-content: center;
+}
+
+footer{
+    padding: 50px;
+    background-image:url(../footerakgrow.jpg) ;
+    background-repeat: no-repeat;
+  
+}
+
+form{
+    color: #a52a2a;
+    text-align: center ;
+    list-style: none;
+    font-size: 20px;
+position : relative;
+  width  : 400px;
+  height : 350px;
+  margin : auto;
+  padding: 1em;
+  box-sizing:border-box;
+  background : rgb(125, 185, 13) url(background.jpg);
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+ /*FLEXBOX*/
+  .prductos-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}*/
+
+/*Estilos Grid*/
+.grid{
+    display: grid;
+    grid-template-columns: 40% 400px;
+    grid-template-rows: auto;
+}
