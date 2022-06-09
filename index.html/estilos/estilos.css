@@ -51,7 +51,7 @@ ul h3{
     text-align: center;
     color: #f30000;
     padding: 20px;
-    list-style:none
+    transform: skew(10deg, 5deg); 
 }
 
 h4{
@@ -94,6 +94,7 @@ main{
     margin: 2px;
     padding: 10px;
     align-content: center;
+    
 }
 
 footer{
@@ -147,4 +148,5 @@ position : relative;
     display: grid;
     grid-template-columns: 40% 400px;
     grid-template-rows: auto;
+    
 }
